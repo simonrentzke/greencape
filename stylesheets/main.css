@@ -1,1 +1,67 @@
-body *
+body {
+  background: #8cc63e url('../images/body_bg.jpg') repeat-x top;
+  font-family:verdana,helvetica,arial,sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 50px 0px 50px 0px;
+}
+
+div#main {
+  width: 960px;
+  background-color: #618c26;
+  margin: auto;
+}
+
+div#content {
+  width: 940px;
+  padding: 10px 10px 10px 10px;
+}
+
+div#header {
+}
+
+div#content div#footer {
+  background: #fff  url('../images/footer_bg.jpg') repeat-x top;
+  height: 125px;
+}
+
+div#content .section {
+  background: #fff url('../images/page_section_bg.jpg') repeat-x bottom;
+  color: #8F9D7E;
+  padding: 40px 20px 20px 58px;
+  min-height: 260px;
+  clear: left;
+}
+
+div#content .section p {
+  width: 400px;
+  float:left;
+}
+
+div.section img {
+  float:left;
+  margin-left: 145px;
+}
+
+div#content h2 {
+   text-indent: -9999px;
+   height: 38px;
+   margin-bottom: 20px;
+   display: hidden;
+}
+
+div#content h2#papers {
+  background: #fff url('../images/headings.gif') no-repeat 0px 0px;
+}
+
+div#content h2#team {
+  background: #fff url('../images/headings.gif') no-repeat 0px -38px;
+}
+
+div#content h2#contact {
+  background: #fff url('../images/headings.gif') no-repeat 0px -76px;
+}
+
+#footer img#sponsor_logos {
+  padding: 26px 0px 0px 58px;
+}
