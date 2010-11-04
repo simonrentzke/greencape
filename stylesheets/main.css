@@ -1,9 +1,13 @@
 body {
   background: #8cc63e url('../images/body_bg.jpg') repeat-x top;
-  font-family:verdana,helvetica,arial,sans-serif;
+  font-family:verdana, helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   padding: 50px 0px 50px 0px;
+}
+
+span {
+  font-weight: bold;
 }
 
 div#main {
@@ -25,22 +29,37 @@ div#content div#footer {
   height: 125px;
 }
 
-div#content .section {
+div#content div.section {
   background: #fff url('../images/page_section_bg.jpg') repeat-x bottom;
   color: #8F9D7E;
   padding: 40px 20px 20px 58px;
-  min-height: 260px;
+  height: 260px;
   clear: left;
 }
 
-div#content .section p {
+div#content div.section p {
   width: 400px;
   float:left;
+}
+
+div#content div.section p.address {
+  line-height: 30px;
+  width: 220px;
+  float:left;
+}
+
+div#email_us {
+  float: left;
+  padding-right: 30px;
 }
 
 div.section img {
   float:left;
   margin-left: 145px;
+}
+
+div.section #email_us img{
+  float:left;
 }
 
 div#content h2 {
