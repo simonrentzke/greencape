@@ -38,6 +38,11 @@ h1 {
   float:left;
 }
 
+h4 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
 div#main {
   width: 950px;
   background-color: #70a02f;
@@ -100,6 +105,31 @@ div#content div.section {
   overflow: auto;
 }
 
+div#content div.section ul li{
+  height: 50px;
+  background: url('../images/icon_pdf.png') no-repeat left;
+  padding-left: 50px;
+  padding-top: 5px;
+  display: block;
+}
+div#content div.section ul li a{
+  text-decoration: none;
+  color: #677b51;
+}
+
+div#content div.section ul li a:hover {
+  color: #8ac240;
+}
+
+div.section img {
+  float:right;
+  margin: 0 0px 27px 145px;
+}
+
+div#content div.section p {
+  margin-top: 10px;
+}
+
 div#content div.about {
   background: #999933 url('../images/about_bg.jpg') no-repeat bottom;
   color: #fff;
@@ -143,11 +173,6 @@ div#email_us {
   right: 123px;
 }
 
-div.section img {
-  float:right;
-  margin: 0 0px 27px 145px;
-}
-
 div#contact_us div#email_us a {
   display: block;
   background: url('../images/email_us.jpg') no-repeat;
@@ -158,10 +183,6 @@ div#contact_us div#email_us a {
 
 div#contact_us div#email_us a:focus {
   outline:  none;
-}
-
-div#content div.section p {
-  margin-top: 10px;
 }
 
 div#content h2 {
