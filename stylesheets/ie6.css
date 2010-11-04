@@ -1,0 +1,8 @@
+#about_us {
+  position: relative;
+  top: 32px;
+  left: 80px;
+  height: 100px;
+  background: none !important;
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_hding.png', sizingMethod='crop');
+}
