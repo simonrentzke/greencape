@@ -43,6 +43,10 @@ h4 {
   padding-bottom: 10px;
 }
 
+.intro {
+  padding-bottom: 5px;
+}
+
 div#main {
   width: 950px;
   background-color: #70a02f;
@@ -71,7 +75,7 @@ div#content div#header ul#nav {
 }
 
 div#content div#header ul#nav li{
-  padding: 19px 29px 7px 0px;
+  padding: 19px 27px 7px 0px;
   float: left;
   font-size: 1.4em;
   display: block;
@@ -106,13 +110,13 @@ div#content div.section {
 }
 
 div#content div.section ul li{
-  height: 50px;
-  background: url('../images/icon_pdf.png') no-repeat left;
-  padding-left: 50px;
-  padding-top: 5px;
-  display: block;
 }
 div#content div.section ul li a{
+  height: 50px;
+  padding-top: 5px;
+  display: block;
+  padding-left: 50px;
+  background: url('../images/icon_pdf.png') no-repeat left;
   text-decoration: none;
   color: #677b51;
 }
@@ -139,7 +143,7 @@ div#content div.about {
 
 div#content div.about p {
   width:438px;
-  font-size:1.6em;
+  font-size:1.4em;
   margin:12px 0 0 0;
 }
 

@@ -7,7 +7,7 @@
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_hding.png', sizingMethod='crop');
 }
 
-div#content div.section ul li{
+div#content div.section ul li a{
   background: none !important;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icon_pdf.png', sizingMethod='crop');
 }
