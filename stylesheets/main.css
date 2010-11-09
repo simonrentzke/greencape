@@ -137,19 +137,19 @@ div#content div.section p {
 div#content div.about {
   background: #999933 url('../images/about_bg.jpg') no-repeat bottom;
   color: #fff;
-  padding: 0px 0px 0px 140px;
+  padding: 0px 0px 0px 60px;
   height: 228px;
 }
 
 div#content div.about p {
-  width:438px;
-  font-size:1.4em;
-  margin:12px 0 0 0;
+  width:536px;
+  font-size:1.35em;
+  margin:15px 0 0 0;
 }
 
 div#content h2#about_us {
   position: relative;
-  top: 22px;
+  top: 24px;
   left: 0;
   height: 100px;
   background: url('../images/about_hding.png') no-repeat;
@@ -192,7 +192,7 @@ div#contact_us div#email_us a:focus {
 div#content h2 {
    text-indent: -9999px;
    height: 38px;
-   margin-bottom: 14px;
+   margin-bottom: 9px;
 }
 
 div#content h2#papers {
