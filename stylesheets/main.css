@@ -211,7 +211,7 @@ div#footer {
   padding-left: 60px;
 }
 
-#footer img#sponsor_logos {
+#footer img.sponsor_logos {
   padding: 26px 0px 0px 0px;
   float:left;
 }
