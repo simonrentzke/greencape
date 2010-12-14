@@ -207,6 +207,10 @@ div#content h2#contact {
   background: url('../images/headings.gif') no-repeat 0px -76px;
 }
 
+div#content h2#advisory {
+  background: url('../images/headings.gif') no-repeat 0px -114px;
+}
+
 div#footer {
   padding-left: 60px;
 }
